@@ -27,6 +27,7 @@ class Solution():
                     return [i, j]
                 
     def optimal_approach(self):
+        pass
         
         
         
