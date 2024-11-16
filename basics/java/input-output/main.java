@@ -29,6 +29,23 @@ class Main {
         int num2 = Integer.parseInt(num1); // explicit typecasting
         System.out.println(num2);
 
+
+        // BufferedReader reads text more efficiently, making it faster for handling large amounts of data.
+        // Scanner can parse primitive types and strings using regular expressions, while BufferedReader reads plain text only.
+        // BufferedReader is more suitable when reading large files, whereas Scanner is more convenient for parsing smaller inputs.
+
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         
+        try {
+            System.out.print("Enter a line of text: ");
+            String input = reader.readLine();
+            System.out.println("You entered: " + input);
+        } catch (IOException e) {
+            System.out.println("An error occurred while reading input.");
+            e.printStackTrace();
+        }
+
+
+    
     }
 }
