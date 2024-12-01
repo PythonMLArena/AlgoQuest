@@ -51,10 +51,12 @@ class Main {
         }
         // Switch Case
         // big condition in if else we have to check lot of number of condition Solution is switch case statement,
-        // matches the switch condition and execute all condition from the matching case
-        // break keyword help and break the execute and move towards the end of program if needed
-        // if no matching condition in switch then it went to the default and runs that
-        // 
+        // A switch statement is a more structured alternative to an if-else ladder when there are multiple conditions to check. It matches the given value (switch expression) with predefined cases. If a case matches, the associated block of code is executed.
+
+        // The break keyword prevents the execution from "falling through" to subsequent cases and ensures that only the matching case is executed.
+        // If no case matches the switch expression, the default block (if provided) is executed.
+        // Without a break, the execution will continue through the remaining cases until a break or the end of the switch block is encountered.
+    
         // Day Numner print which Day of the week
         int DayNumber = sc.nextInt();
 
